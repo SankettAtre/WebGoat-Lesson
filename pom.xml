@@ -157,4 +157,11 @@
             </plugin>
         </plugins>
     </build>
+    <distributionManagement>
+                        <repository>
+                        <id>artifactory</id>
+                        <name>webgoat</name>
+                        <url>http://v-47:8081/artifactory/webgoat/central/webgoat-central</url>
+                </repository>
+    </distributionManagement>     
 </project>
